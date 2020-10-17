@@ -1,0 +1,61 @@
+.Footer{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 65px;
+    width: 97%;
+    background-color: #282828;
+    padding: 20px;
+}
+
+
+.Footer__center{
+    color: white;
+    display: flex;
+    flex: 0.4;
+    
+    align-items: center;
+    justify-content:space-between;
+    max-width: 300px;
+}
+
+
+
+
+.Footer__left{
+    flex:0.3
+
+}
+
+
+
+.Footer__right{
+    flex:0.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.Footer__green{
+    color:#1ed15e;
+}
+.Footer__sonInfo>h4{
+    margin-bottom: 5px;
+}
+.Footer__songInfo>p{
+    font-size: 12px;
+}
+.Footer__Icon:hover,
+.Footer__green:hover{
+    transition: tranform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+.Footer__right * .MuiSlider-root{
+    color:green
+}
+.Footer__image{
+    height: 100px;
+    width: 100px;
+}
